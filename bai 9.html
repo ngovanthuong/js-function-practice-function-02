@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function array(x,a) {
+        let count=0;
+        for(let i=0;i<a.length;i++){
+            if(x===a[i]){
+                count++;
+            }
+        }if(count===0){
+            return -1
+        }
+        return "so lan xuat hien cua ky tu "+count;
+    }
+    a=prompt("nhap chuoi");
+    x=prompt("nhap ky tu");
+    document.write(array(x,a));
+
+</script>
+</body>
+</html>

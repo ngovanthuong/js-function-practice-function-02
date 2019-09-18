@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function compare(a,b,c) {
+        if(a<b){
+            if(a<c){
+                return a +" la min ";
+            } return c + " la min "
+        }else {
+            if(b>c){
+                return c +" la min"
+            }
+            return b +" la min"
+        }
+    }
+    let num1=parseInt(prompt("nhap :"));
+    let num2=parseInt(prompt("nhap :"))
+    let num3=parseInt(prompt("nhap :"))
+    document.write(compare(num1,num2,num3));
+</script>
+</body>
+</html>
